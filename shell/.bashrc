@@ -131,7 +131,12 @@ export GIT_PS1_SHOWUPSTREAM=auto
 
 export GIT_PS1_SHOWCOLORHINTS=1
 
-export PROMPT_COMMAND='__git_ps1 "[\[\033[01;34m\]\w\[\033[00m\]]" "\n\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]\$ "'
+RS="\[\033[0m\]"    # reset
+FPUR="\[\033[01;34m\]" # foreground purple
+FGRE="\[\033[01;32m\]"
+FCYN="\[\033[36m\]"
+
+export PROMPT_COMMAND='__git_ps1 "[$FPUR\w$RS]" "\n$FGRE\u$RS $FPUR\$$RS "'
 
 # load perl modules installed in home folder
 export PERL5LIB=~/share/perl/5.14.2/
