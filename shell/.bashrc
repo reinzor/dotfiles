@@ -152,8 +152,3 @@ if [ "$USE_CCACHE" ]
 then
     export PATH=/usr/lib/ccache:$PATH
 fi
-
-if [[ -f ~/.tue/setup.bash ]]
-then
-	. ~/.tue/setup.bash
-fi
