@@ -4,7 +4,7 @@ custom linux config files - managed via gnu stow
 ### Installation Linux
 ```sh
 sudo apt install stow
-git clone https://github.com/Rayman/dotfiles.git ~/.dotfiles
+git clone https://github.com/reinzor/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ./setup.sh
 ```
@@ -12,7 +12,7 @@ cd ~/.dotfiles
 ### Installation OSX
 ```sh
 brew install stow
-git clone https://github.com/Rayman/dotfiles.git ~/.dotfiles
+git clone https://github.com/reinzor/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ./setup.sh
 ```
