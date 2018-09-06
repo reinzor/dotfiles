@@ -3,10 +3,10 @@ custom linux config files - managed via gnu stow
 
 ### Installation Linux
 ```sh
-sudo apt install stow
-git clone https://github.com/reinzor/dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-./setup.sh
+sudo apt-get -y install stow curl && \
+git clone https://github.com/reinzor/dotfiles.git ~/.dotfiles && \
+cd ~/.dotfiles && \
+./install.sh
 ```
 
 ### Installation OSX
@@ -14,5 +14,5 @@ cd ~/.dotfiles
 brew install stow
 git clone https://github.com/reinzor/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-./setup.sh
+./install.sh
 ```
