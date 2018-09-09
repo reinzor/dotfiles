@@ -4,6 +4,7 @@ source ~/.dotfiles/install/bat.sh
 source ~/.dotfiles/install/terminator.sh
 source ~/.dotfiles/install/htop.sh
 source ~/.dotfiles/install/ag.sh
+source ~/.dotfiles/install/fzf.sh
 
 mkdir -vp ~/bin
 mkdir -vp ~/.config/git

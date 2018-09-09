@@ -156,3 +156,5 @@ if [ "$USE_CCACHE" ]
 then
     export PATH=/usr/lib/ccache:$PATH
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
