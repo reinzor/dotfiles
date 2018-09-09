@@ -10,7 +10,7 @@ mkdir -vp ~/bin
 mkdir -vp ~/.config/git
 
 # Remove all dotfiles so we can create links
-dotfiles=$(ls -A shell)
+dotfiles=$(find . -type f -name ".*")
 for dotfile in $dotfiles
 do
   rm -rf ~/$dotfile
