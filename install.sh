@@ -1,5 +1,9 @@
 #!/bin/bash
-source ~/.dotfiles/install_vim-plug.sh
+source ~/.dotfiles/install/vim-plug.sh
+source ~/.dotfiles/install/bat.sh
+source ~/.dotfiles/install/terminator.sh
+source ~/.dotfiles/install/htop.sh
+source ~/.dotfiles/install/ag.sh
 
 mkdir -vp ~/bin
 mkdir -vp ~/.config/git
