@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/.dotfiles/install-vim-plug.sh
+source ~/.dotfiles/install-vim.sh
 source ~/.dotfiles/install-bat.sh
 source ~/.dotfiles/install-terminator.sh
 source ~/.dotfiles/install-htop.sh
@@ -14,7 +14,9 @@ mkdir -vp ~/.config/git
 dotfiles=$(find . -type f -name ".*")
 for dotfile in $dotfiles
 do
-  rm -rf ~/$dotfile
+  dotfile_path=~/$(basename $dotfile)
+  echo "Removing $dotfile_path"
+  rm -vrf $dotfile_path
 done
 
 find * -maxdepth 0 -type d -print0 | xargs -0 stow -v
