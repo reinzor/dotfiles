@@ -6,6 +6,8 @@ source ~/.dotfiles/install-htop.sh
 source ~/.dotfiles/install-ag.sh
 source ~/.dotfiles/install-fzf.sh
 source ~/.dotfiles/install-ipython.sh
+source ~/.dotfiles/install-sublime.sh
+source ~/.dotfiles/install-pycharm.sh
 
 mkdir -vp ~/bin
 mkdir -vp ~/.config/git
