@@ -1,0 +1,5 @@
+if [ "$#" -ne 3 ]; then
+    echo "Usage: find-grep-replace [path] [old_string] [new_string]"
+else
+    find $1 -type f -exec sed -i "s/$2/$3/g" {} \;
+fi
