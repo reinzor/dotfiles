@@ -1,6 +1,7 @@
 #!/bin/bash
 source ~/.dotfiles/install-ag.sh
 source ~/.dotfiles/install-bat.sh
+source ~/.dotfiles/install-docker.sh
 source ~/.dotfiles/install-fzf.sh
 source ~/.dotfiles/install-htop.sh
 source ~/.dotfiles/install-ipython.sh
