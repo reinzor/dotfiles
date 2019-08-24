@@ -27,7 +27,3 @@ find * -maxdepth 0 -type d -print0 | xargs -0 stow -v
 
 # Permissions
 sudo adduser `whoami` dialout
-
-# Config
-cp -r ~/.dotfiles/config/* ~/.config/
-
