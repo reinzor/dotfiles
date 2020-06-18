@@ -157,4 +157,7 @@ then
     export PATH=/usr/lib/ccache:$PATH
 fi
 
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+source /usr/share/doc/fzf/examples/key-bindings.bash
+
+# set PATH so it includes user's private bin directories
+export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
