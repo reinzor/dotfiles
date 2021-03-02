@@ -11,6 +11,7 @@ source ~/.dotfiles/install-terminator.sh
 source ~/.dotfiles/install-vim.sh
 source ~/.dotfiles/install-prettyping.sh
 source ~/.dotfiles/install-code.sh
+source ~/.dotfiles/install-teams-for-linux.sh
 
 mkdir -vp ~/bin
 mkdir -vp ~/.config/git
