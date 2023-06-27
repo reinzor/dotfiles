@@ -13,6 +13,8 @@ source ~/.dotfiles/install-prettyping.sh
 source ~/.dotfiles/install-code.sh
 source ~/.dotfiles/install-teams-for-linux.sh
 source ~/.dotfiles/install-spotify.sh
+source ~/.dotfiles/install-webstorm.sh
+source ~/.dotfiles/install-clion.sh
 
 mkdir -vp ~/bin
 mkdir -vp ~/.config/git
