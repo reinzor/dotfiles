@@ -6,7 +6,6 @@ source ~/.dotfiles/install-fzf.sh
 source ~/.dotfiles/install-htop.sh
 source ~/.dotfiles/install-ipython.sh
 source ~/.dotfiles/install-pycharm-community.sh
-source ~/.dotfiles/install-qtcreator.sh
 source ~/.dotfiles/install-terminator.sh
 source ~/.dotfiles/install-vim.sh
 source ~/.dotfiles/install-prettyping.sh

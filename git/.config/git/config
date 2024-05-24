@@ -1,5 +1,5 @@
 [user]
-	email = reinzor@gmail.com
+	email = rein.appeldoorn@nobleo.nl
 	name = Rein Appeldoorn
 [push]
 	default = simple
@@ -10,3 +10,12 @@
 [pager]
     diff = diff-so-fancy | less --tabs=1,5 -RFX
     show = diff-so-fancy | less --tabs=1,5 -RFX
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+	pushInsteadOf = https://github.com/
+[color]
+	ui = auto
+[pull]
+	default = upstream
