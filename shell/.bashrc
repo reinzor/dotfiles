@@ -152,10 +152,7 @@ then
     export CXX=clang++
 fi
 
-if [ "$USE_CCACHE" ]
-then
-    export PATH=/usr/lib/ccache:$PATH
-fi
+export PATH=/usr/lib/ccache:$PATH
 
 source /usr/share/doc/fzf/examples/key-bindings.bash
 
