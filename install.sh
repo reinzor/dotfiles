@@ -6,6 +6,7 @@ sudo apt-get update && sudo apt-get install -y \
   ccache \
   clang-format \
   docker.io \
+  f3d \
   fzf \
   htop \
   ipython3 \
