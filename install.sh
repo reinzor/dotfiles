@@ -10,6 +10,7 @@ sudo apt-get update && sudo apt-get install -y \
   fzf \
   htop \
   ipython3 \
+  mdns-scan \
   python3-ipdb \
   prettyping \
   terminator \
